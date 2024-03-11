@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    
+}
+body{
+    background:url("https://netlify-eleventy-api-img.netlify.app/https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fo0o2tn5x%2Fproduction%2F9b42609ea3eb39e9a8227451fd9ddac4fa2489b5-2400x1260.png/jpeg/1200/");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    background: linear-gradient(rgba(255, 255, 255, 0.925), transparent);
+    z-index: 100;
+    background-color: aliceblue;
+}
+.nav-logo
+{
+    width:auto;
+    height: 100px;
+    
+}
+.nav-menu ul{
+    display: flex;
+    font-weight: bold;
+}
+.nav-menu ul li{
+    list-style-type: none;
+}
+.nav-menu ul li .link{
+    text-decoration: none;
+    font-weight: 500;
+    color:black;
+    padding-bottom: 15px;
+    margin: 0 25px;
+
+}
+.nav-button {
+    height:70px;
+    font-weight: 500;
+    display: flex;
+    cursor: pointer;
+    transition: .3s ease;
+    margin-right: 10vw;
+    padding-top: 40px;
+    gap: 30px;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+.nav-logo p{
+    padding:0;
+}
+h1 {
+    color:white;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 250px;
+    margin-bottom: 0%;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 0;
+    border-bottom: 0;
+    
+
+}
+h2 {
+    color:white;
+    text-align: center;
+    font-size: 65px;
+    margin-top: 0;
+
+}
+p{
+    font-size: 20px;
+    padding-top: 50px;
+}
+a{
+    text-decoration: none;
+    
+}
+.hp{
+    padding-left:10px;
+    padding-right:10px;
+    border: none;
+    background:none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    font-weight: bold;
+   
+}
+.lp{
+    border:none;
+    background-color: blue;
+    color:white;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:10px ;
+    padding-bottom:25px ;
+    border-radius:5px;
+    font-weight: bold;
+    font-size: 1rem;
+   
+}
+.hpp{
+    color:black;
+}
+.lpp{
+    color:white;
+}
+.link active{
+    font-weight: bold;
+}
+.nav-menu{
+    font-weight: 900;
+}</style>
+    <title>netlify.com</title>
+</head>
+
+
+<body >
+    <header class="site header">
+         <a href="netlify.html"><img src="./image-removebg-preview.png" class="nav-logo"></a>
+        <div class="nav-menu">
+            <ul>
+                <li><a href="#" class="link active">Home</a></li>
+                <li><a href="#" class="link">Blog</a></li>
+                <li><a href="#" class="link">Services</a></li>
+                <li><a href="#" class="link">About</a></li>
+            </ul>
+        </div>
+        <div class="nav-button">
+            <button class="hp"><a class="hpp" href="login.html">Log in</a></button>
+            <button class="lp"><a class="lpp" href="sign up.html">Sign up</a><br></button>
+        </div>
+
+    </header>
+    
+    <h1 align="center">Connect everything.</h1><br>
+    <h2 align="center">Build anything.</h>
+    <p align="center">Netlify is the essential platform for the delivery of exceptional and<br> dynamic web experiences, without limitations.</p>
+</body>
+
+</html>
